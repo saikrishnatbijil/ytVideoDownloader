@@ -1,4 +1,6 @@
+from distutils.log import debug
 import os
+from xmlrpc.client import _HostType
 from flask import Flask, request, render_template, session, send_file
 from pytube import YouTube
 from io import BytesIO
@@ -52,5 +54,4 @@ def downloadaudio():
 
 
 if __name__ == "__main__":
-    from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+    app.run(debug=False, host="0.0.0.0")
