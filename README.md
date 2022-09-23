@@ -1,2 +1,3 @@
-# ytVideoDownloader
-ytVideoDownloader is a YouTube video downloader flask app all backend is python
+# YtVideoDownloader
+
+ytVideoDownloader is a YouTube video downloader.It is
