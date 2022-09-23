@@ -1,0 +1,9 @@
+#imageThump {
+    width: 30%;
+    border-radius: 10px;
+}
+
+#card {
+    background-color: rgb(217, 217, 255);
+    border-radius: 20px;
+}
